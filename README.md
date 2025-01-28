@@ -1,71 +1,18 @@
-### Is-Vectoriel-Py
-
-#### English Version 🇺🇸
-
-# Is-Vectoriel-Py
-
-📄 **Is-Vectoriel-Py** is a Python function that takes a PDF file as input and returns `True` if it is vector-based, otherwise `False`.
-
-![PDF Image](https://example.com/pdf_image.png)
-
-## Requirements
-- Python 3.x
-- [pypdf](https://pypi.org/project/pypdf/)
-
-## Installation
-
-```bash
-pip install pypdf
-```
-
-## Usage
-
-```python
-from is_vectoriel import is_vectoriel
-
-result = is_vectoriel("yourfile.pdf")
-print(result)
-```
-
-## Running on Windows 🪟
-
-1. Open Command Prompt.
-2. Navigate to your project directory.
-3. Run the following commands:
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-python your_script.py
-```
-
-## Running on MacOS 🍏
-
-1. Open Terminal.
-2. Navigate to your project directory.
-3. Run the following commands:
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python your_script.py
-```
-
-## Credits
-
-- [pypdf](https://pypi.org/project/pypdf/)
-
----
-
-#### Version Française 🇫🇷
-
 # Is-Vectoriel-Py
 
 📄 **Is-Vectoriel-Py** est une fonction Python qui prend en entrée un fichier PDF et retourne `True` s'il est vectoriel, sinon `False`.
 
-![Image PDF](https://example.com/pdf_image.png)
+
+## Table des Matières
+- [Exigences](#exigences)
+- [Installation](#installation)
+- [Utilisation](#utilisation)
+- [Exécution sur Windows](#exécution-sur-windows)
+- [Exécution sur MacOS](#exécution-sur-macos)
+- [Contribuer](#contribuer)
+- [FAQ](#faq)
+- [Licence](#licence)
+- [Crédits](#crédits)
 
 ## Exigences
 - Python 3.x
@@ -76,7 +23,6 @@ python your_script.py
 ```bash
 pip install pypdf
 ```
-
 ## Utilisation
 
 ```python
@@ -86,33 +32,46 @@ resultat = is_vectoriel("votrefichier.pdf")
 print(resultat)
 ```
 
-## Lancer sur Windows 🪟
+## Exécution
 
-1. Ouvrez l'invite de commande.
-2. Allez dans votre répertoire de projet.
-3. Exécutez les commandes suivantes:
+### Exécution sur Windows 🪟
 
+Ouvrez l'invite de commande.
+Allez dans votre répertoire de projet.
+Exécutez les commandes suivantes :
 ```bash
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 python votre_script.py
 ```
+### Exécution sur MacOS 🍏
 
-## Lancer sur MacOS 🍏
-
-1. Ouvrez le terminal.
-2. Allez dans votre répertoire de projet.
-3. Exécutez les commandes suivantes:
-
+Ouvrez le terminal.
+Allez dans votre répertoire de projet.
+Exécutez les commandes suivantes :
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 python votre_script.py
 ```
+## Contribuer
+
+Les contributions sont les bienvenues ! Veuillez soumettre un pull request ou ouvrir une issue pour discuter des modifications que vous souhaitez apporter.
+
+## FAQ
+
+### Comment savoir si un fichier PDF est vectoriel ?
+Utilisez la fonction is_vectoriel avec le chemin du fichier PDF. La fonction retourne True si le PDF est vectoriel, sinon False.
+
+### Quelles sont les dépendances nécessaires ?
+Vous avez besoin de Python 3.x et du package pypdf.
+
+## Licence
+
+Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 
 ## Crédits
 
-- [pypdf](https://pypi.org/project/pypdf/)
-
+pypdf [pypdf](https://pypi.org/project/pypdf/)
